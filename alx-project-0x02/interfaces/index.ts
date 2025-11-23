@@ -23,9 +23,12 @@ export interface CardProps {
   content: string
 }
 
+import type { ReactNode } from 'react'
+
 export interface ButtonProps {
   size?: 'small' | 'medium' | 'large'
   shape?: 'rounded-sm' | 'rounded-md' | 'rounded-full'
+  children?: ReactNode
 }
 
 export interface UserProps {
