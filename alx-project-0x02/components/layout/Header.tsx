@@ -8,19 +8,16 @@ export default function Header() {
         <nav>
           <ul className="flex gap-4">
             <li>
-              <Link href="/">
-                <a className="hover:underline">Home</a>
-              </Link>
+              <Link href="/home" className="hover:underline">Home</Link>
             </li>
             <li>
-              <Link href="/posts">
-                <a className="hover:underline">Posts</a>
-              </Link>
+              <Link href="/about" className="hover:underline">About</Link>
             </li>
             <li>
-              <Link href="/users">
-                <a className="hover:underline">Users</a>
-              </Link>
+              <Link href="/posts" className="hover:underline">Posts</Link>
+            </li>
+            <li>
+              <Link href="/users" className="hover:underline">Users</Link>
             </li>
           </ul>
         </nav>
